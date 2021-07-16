@@ -1,0 +1,54 @@
+.swiper-container {
+    height: 100%;
+  }
+  .swiper-slide {
+   
+    font-size: 18px;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  #bgfrank{
+    background-image: url('/src/ring.png');
+  }
+  #bgjenny{
+    background-image: url('/src/dark.png');
+  }
+  #bgdunkan{
+    background-image: url('/src/darkDunk.png');
+  }
+  #bghero{
+    background-image: url('/src/full.png');
+  }
+  #bgform{
+    background-image: url('/src/ring.png');
+  }
+  #bgdiv{
+    background-image: url('/src/bg.png');
+    display: flex;
+    align-items: center;
+  }
+
+
+*{
+  font-family: 'Alfa Slab One', cursive;
+}
+
+.sw-icons{
+  width:100vw;
+  width: 100%;
+}
+a:link   {color:#00a651;text-shadow: 6px 6px 8px rgba(0,0,0,0.86);}
+a:visited{color:#00a651;text-shadow: 6px 6px 8px rgba(0,0,0,0.86);}
+a:active {color:#00a651;text-shadow: 6px 6px 8px rgba(0,0,0,0.86);}
+a:hover  {color:#00a651;text-shadow: 6px 6px 8px rgba(0,0,0,0.86);}

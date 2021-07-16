@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Liga Risaraldense de Boxeo</title>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.css'>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet"> 
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+<!--FB Chat-->
+<!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script>
+  window.fbAsyncInit = function() {
+	FB.init({
+	  xfbml            : true,
+	  version          : 'v7.0'
+	});
+  };
+
+  (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Your Chat Plugin code -->
+<div class="fb-customerchat"
+  attribution=setup_tool
+  page_id="2051072465110800"
+theme_color="#13cf13"
+logged_in_greeting="¿Te gustaría entrenar con nosotros? ¡Anímate y haz parte de esta gran familia!🥊 "
+logged_out_greeting="¿Te gustaría entrenar con nosotros? ¡Anímate y haz parte de esta gran familia!🥊 ">
+</div>
+	<style type="text/css" media="screen">
+		body {
+		  display: flex;
+		  min-height: 100vh;
+		  flex-direction: column;
+		}
+   
+		#wrapper {
+		  flex: 1;
+		}
+	</style>
+<!--Menu-->
+<nav class="navbar navbar-expand-lg navbar-dark is-dark static-top">
+	<div class="container">
+	  <a class="navbar-brand" href="">
+			<img src="src/logos/logo.png" class="img-fluid" alt="Responsive image">
+		  </a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+	  <div class="collapse navbar-collapse" id="navbarResponsive">
+		<ul class="navbar-nav ml-auto">
+		  <li class="nav-item">
+			<a class="nav-link" href="index">Inicio
+				  <span class="sr-only">(current)</span>
+				</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="escuelas">Escuelas de Formación</a>
+		  </li>
+		  <li class="nav-item active">
+			<a class="nav-link" href="reconocimientos">Reconocimientos</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="implementos">Implementos Deportivos</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="contact">Contacto</a>
+		  </li>
+		</ul>
+	  </div>
+	</div>
+</nav>
+<!--Menu-->
+<!--Slider-->
+<section class="section" id="bgfrank">
+	<div class="columns is-centered">
+		<div class="swiper-container is-one-third has-text-centered">
+			<div class="swiper-wrapper" >
+				<div class="swiper-slide"  style="background-color:transparent;">
+				<img src="src/Frank/Frank.png" alt="">
+				</div>
+				<div class="swiper-slide"  style="background-color:transparent;">
+				<img src="src/Frank/Frank1.png" alt="">
+				</div>
+			</div>
+			<h3 style="padding-top: 1em; color: white; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: black;">Jud Franki Granada</h3>
+			<h5 style="color: white; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: black;">Campeón Mundial</h5>
+		</div>
+	</div>
+</section>
+
+<section class="section" id="bgjenny">
+	<div class="columns is-centered">
+		<div class="swiper-container is-one-third has-text-centered">
+			<div class="swiper-wrapper" >
+				<div class="swiper-slide" style="background-color:transparent;">
+					<img src="src/Jenny/Jenny01.png" alt="">
+				</div>
+				<div class="swiper-slide" style="background-color:transparent;">
+					<img src="src/Jenny/Jenny.png" alt="">
+				</div>
+				<div class="swiper-slide" style="background-color:transparent;">
+					<img src="src/Jenny/Jenny1.png" alt="">
+				</div>
+				<div class="swiper-slide" style="background-color:transparent;">
+					<img src="src/Jenny/Jenny2.png" alt="">
+				</div>
+			</div>
+			<h3 style="padding-top: 1em; color: white; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: black;">Jenny Marcela Arias</h3>
+			<h5 style="color: white; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: black;">Seleccion Colombia</h5>
+		</div>
+	</div>
+</section>
+
+<section class="section" id="bgdunkan">
+	<div class="columns is-centered">
+		<div class="is-one-third has-text-centered">
+				<figure class="image is-relative">
+					<img src="./src/Dunkan/dunkan.png" alt="">
+					<h3 style="padding-top: 1em; color: white; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: black;">Mauricio García</h3>
+					<h5 style="color: white; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: black;">Serie Mundial Domadores de Cuba</h5>
+				</figure>
+		</div>
+	</div>
+</section>
+
+<section class="section has-background-white container">
+	<div class="sw-icons">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide">
+				<a href="https://www.mindeporte.gov.co/" target="_blank" rel="noopener noreferrer"><img src="./src/logos/01.png" alt=""></a>
+				<a href="https://www.risaralda.gov.co/" target="_blank" rel="noopener noreferrer"><img src="./src/logos/02.png" alt=""></a>
+				<a href="http://pereira.gov.co/Paginas/Default.aspx" target="_blank" rel="noopener noreferrer"><img src="./src/logos/03.png" alt=""></a>
+			</div>
+			<div class="swiper-slide">
+				<a href="http://www.coc.org.co/category/todos-los-deportes/boxeo/" target="_blank" rel="noopener noreferrer"><img src="./src/logos/04.png" alt=""></a>
+				<a href="http://fecolbox.com/" target="_blank" rel="noopener noreferrer"><img src="./src/logos/05.png" alt=""></a>
+				<a href="https://www.wbaboxing.com/wba-fedelatin-rankings" target="_blank" rel="noopener noreferrer"><img src="./src/logos/06.png" alt=""></a>
+			</div>
+			<div class="swiper-slide">
+				<a href="https://www.aiba.org/" target="_blank" rel="noopener noreferrer"><img src="./src/logos/08.png" alt=""></a>
+				<a href="https://www.wboboxing.com/" target="_blank" rel="noopener noreferrer"><img src="./src/logos/09.png" alt=""></a>
+				<a href="https://www.wbaboxing.com/es/" target="_blank" rel="noopener noreferrer"><img src="./src/logos/07.png" alt=""></a>
+			</div>
+		</div>
+	</div>
+</section>
+
+<footer class="has-background-dark">
+	<div class="footer-copyright">
+		<div class="container has-text-centered">
+			<p style="color: white; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: black; padding-top: 1em;">Liga Risaraldense de Boxeo - Coliseo Mayor de Pereira - Contacto: 320 7678605 - 310 5493373</p>
+		    <p style="color: white; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: black;">© Copyright 2020. Todos los Derechos Reservados | Desarrollado por <a style="  -webkit-text-stroke-width: 1px;
+				-webkit-text-stroke-color: black; font-size: 1.2em;  text-decoration:none;" href="https://juanpfrancos.me">Juanpfrancos</a></p>
+		</div>
+	  </div>
+</footer>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+<script> 
+	var swiper = new Swiper('.swiper-container', {
+	  spaceBetween: 30,
+	  effect: 'fade',
+	  pagination: {
+		clickable: true,
+	  },
+	  autoplay: {
+		delay: 2500,
+		disableOnInteraction: false,
+	  },
+	  navigation: {
+		nextEl: '.swiper-button-next',
+		prevEl: '.swiper-button-prev',
+	  },
+	});
+</script>
+</body>
+</html>
